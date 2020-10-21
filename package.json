@@ -1,0 +1,24 @@
+{
+  "name": "eggggg",
+  "version": "1.0.0",
+  "description": "- ***app/router.js*** 用于配置 URL 路由规则\r - ***app/controller/*** 用于解析用户的输入，处理后返回相应的结果\r - ***app/service/*** 用于编写业务逻辑层，可选，建议使用\r - ***app/middleware/*** 用于编写中间件，可选\r - ***app/public/*** 用于放置静态资源\r - ***app/extend*** 用于框架的扩展\r - ***config/config.{env}.js*** 用于编写配置文件\r - ***config/plugin.js*** 用于配置需要加载的插件\r - ***text/*** 用于单元测试\r - ***app.js*** 用于自定义启动时的初始化工作\r - ***app/schedule*** 用于定时任务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentHyf/egg_practise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VincentHyf/egg_practise/issues"
+  },
+  "homepage": "https://github.com/VincentHyf/egg_practise#readme",
+  "dependencies": {
+    "globby": "^11.0.1",
+    "koa": "^2.13.0"
+  }
+}

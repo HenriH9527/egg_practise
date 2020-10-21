@@ -1,8 +1,6 @@
 // middleware/log.js
 
-module.exports = config => {
-    async (ctx, next) => {
-        console.log(config.format(ctx.url))
-        await next()
-    }
+module.exports = config => async (ctx, next) => {
+    console.log(config.format(ctx.url))
+    await next()
 }
